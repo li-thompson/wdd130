@@ -7,10 +7,9 @@
     --body-font: "raleway", sans-serif;
 }
 
-/* header {
-    background-color: var(--primary-color);
+header {
     color: var(--accent2-color);
-} */
+}
 
 * {
     margin: 0;
@@ -31,6 +30,12 @@ header, main, footer {
 h1, h2 {
     font-family: var(--heading-font);
     color: var(--primary-color)
+}
+
+p1 {
+    font-family: var(--body-font);
+    color: #fff;
+    
 }
 
 nav, p, section, article {
