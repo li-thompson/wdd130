@@ -1,15 +1,60 @@
 :root {
-    --primary-color: #9AD4D6; /* Tiffany Blue */
-    --secondary-color: #5C6F68; /* Feldgrau */
-    --accent1-color: #A77464; /* Brown Sugar */
-    --accent2-color: #FFE787; /* Jasmine */
+    --primary-color: #9AD4D6;
+    /* Tiffany Blue */
+    --secondary-color: #5C6F68;
+    /* Feldgrau */
+    --accent1-color: #A77464;
+    /* Brown Sugar */
+    --accent2-color: #FFE787;
+    /* Jasmine */
     --heading-font: "bubblegum sans", sans-serif;
     --body-font: "raleway", sans-serif;
 }
 
 header {
     color: var(--accent2-color);
+    display: grid;
+    grid-template-columns: 40% 60%;
+    align-items: center;
+    padding: 20px;
 }
+
+header img {
+    position: relative;
+    top: 10px;
+    left: 30%;
+    width: 150px;
+    height: auto;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.history img {
+    width: 100px;
+    height: 100px;
+}
+
+.history {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.adventure img {
+    width: 150px;
+    height: auto;
+}
+
+.adventure {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
 
 * {
     margin: 0;
@@ -22,17 +67,25 @@ body {
     color: var(--accent1-color)
 }
 
-header, main, footer {
+header,
+main,
+footer {
     width: 840px;
     margin: 0 auto;
 }
 
-h1, h2 {
+h1,
+h2 {
+    text-align: center;
     font-family: var(--heading-font);
     color: var(--primary-color)
 }
 
-nav, p, section, article {
+
+nav,
+p,
+section,
+article {
     margin: 16px;
     padding: 8px;
 }
@@ -54,18 +107,18 @@ nav, p, section, article {
 
 h1 {
     position: absolute;
-    top: 20px;  
+    top: 20px;
     width: 100%;
     padding: 16px;
     text-align: center;
-    opacity: .7; 
+    opacity: .7;
     background-color: var(--accent1-color);
     color: #fff
 }
 
 .hero article {
     position: absolute;
-    bottom: 0; 
+    bottom: 0;
     background-color: var(--secondary-color);
     color: #fff;
 }
@@ -74,3 +127,26 @@ h1 {
     float: right;
     width: 125px
 }
+
+footer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+footer p {
+    grid-column: 1 / 4;
+    align-items: center;
+    justify-self: end;
+}
+
+/* footer nav {
+    grid-column: 6 / 7;
+} */
+
+
+
+/* footer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    
+} */
