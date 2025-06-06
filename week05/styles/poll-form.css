@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "raleway", sans-serif;
+}
+
+header {
+    margin: 0;
+    width: 500px;
+}
+
+h1 {
+    margin: 0;
+    color: darkblue;
+    text-align: center;
+}
+
+form {
+    width: 500px;
+    margin: 20px;
+    padding: 10px;
+    border: solid;
+    border-radius: 10px;
+    background-color: rgb(199, 232, 243);
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: 10px;
+    margin: 10px;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+legend {
+    font-size: 20px;
+    color: darkblue;
+    padding: 10px;
+    font-style: italic;
+}
+
+label {
+    text-align: right;
+    padding-right: 10px;
+}
+
+input, select, textarea {
+    padding: .5rem;
+    font-size: 1.1rem;
+}
+
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+}
+
+button {
+    margin: 10px;
+    background-color: darkblue;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+button:hover {
+    background-color: green;
+}
+
+footer {
+    margin: 0;
+    width: 500px;
+    text-align: center;
+    color: darkblue;
+
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+} 
+
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: 10px 0px;
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
+    margin: 10px 0px;
+}
