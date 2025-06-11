@@ -139,14 +139,87 @@ footer p {
     justify-self: end;
 }
 
-/* footer nav {
-    grid-column: 6 / 7;
-} */
+.profiles {
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+}
 
+.profiles figure {
+    width: 250px;
+    text-align: center;
+}
 
+.profiles figure img {
+    width: 200px;
+}
 
-/* footer {
+form {
+    width: 500px;
+    margin: 20px auto;
+    padding: 10px;
+    border: solid;
+    border-radius: 10px;
+    background-color: var(--primary-color);
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    
-} */
+}
+
+fieldset {
+    display: grid;
+    grid-gap: 10px;
+    margin: 10px;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+legend {
+    font-size: 20px;
+    color: darkblue;
+    padding: 10px;
+    font-style: italic;
+}
+
+label {
+    text-align: right;
+    padding-right: 10px;
+}
+
+input, select, textarea {
+    padding: .5rem;
+    font-size: 1.1rem;
+}
+
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+}
+
+button {
+    margin: 10px;
+    background-color: darkblue;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+button:hover {
+    background-color: green;
+}
+
+aside {
+    width: 500px;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+.contact {
+    text-align: center;
+}
+
+.contact iframe {
+    width: 250px;
+    height: auto;
+    align-content: center;
+}
