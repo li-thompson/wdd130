@@ -72,13 +72,14 @@ main,
 footer {
     width: 840px;
     margin: 0 auto;
+    color: black;
 }
 
 h1,
 h2 {
     text-align: center;
     font-family: var(--heading-font);
-    color: var(--primary-color)
+    color: black;
 }
 
 
@@ -148,6 +149,7 @@ footer p {
 .profiles figure {
     width: 250px;
     text-align: center;
+    color: black;
 }
 
 .profiles figure img {
@@ -161,6 +163,7 @@ form {
     border: solid;
     border-radius: 10px;
     background-color: var(--primary-color);
+    color: black;
     display: grid;
 }
 
