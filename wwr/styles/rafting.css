@@ -226,3 +226,53 @@ aside {
     height: auto;
     align-content: center;
 }
+
+.trips {
+    position: relative;
+    text-align: center;
+    padding: 20px;
+    color: black;
+}
+
+.trips h1 {
+    color: black;
+}
+
+.descriptions {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto);
+    padding: 50px;
+}
+
+.descriptions figure {
+    width: 250px;
+    text-align: center;
+    color: black;
+}
+
+.descriptions figure img {
+    grid-column: 1 / 2;
+    width: 200px;
+}
+
+.descriptions figure p {
+    grid-column: 2 /3;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+thead {
+  color: white;
+  font-weight: bold;
+}
